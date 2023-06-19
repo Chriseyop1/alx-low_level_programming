@@ -1,17 +1,20 @@
 #include <stdio.h>
+#include <ctype.h>
+
 /**
 * main - Entry point
-*Description: 'print alphabets iowercase'
-* Return: Always return 0 
+*
+*Return: Always 0 (success)
 */
+
 int main(void)
 {
-int n = 97;
-while (n <= 122)
+int lowerCase = 'a';
+while (lowerCase <= 'z')
 {
-putchar(n);
-n++;
+putchar(lowerCase);
+lowerCase += 1;
 }
-putchar('n');
+putchar('\n');
 return (0);
 }
