@@ -11,11 +11,11 @@ int main(void)
 int lowerCase = 'a';
 while (lowerCase <= 'z')
 {
-if (lowercase == 'e' || lowerCase == 'q')
+if (lowerCase == 'e' || lowerCase == 'q')
 {
 lowerCase += 1;
 }
-alse
+else
 {
 putchar(lowerCase);
 lowerCase += 1;
