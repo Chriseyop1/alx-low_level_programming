@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
 * print_sign - Determine if the input is number
 * greater, equal or less than zero
@@ -23,7 +24,7 @@ return (-1);
 else
 {
 _putchar(48);
-retun (0);
+retun(0);
 }
 _putchar('\n');
 }
