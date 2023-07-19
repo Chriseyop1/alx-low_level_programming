@@ -13,10 +13,10 @@ return (_sqrt(n, 1));
 }
 
 /**
-* _sqrt - Calculates natural square root
+* _sqrt - Calculates the natural square root
 * @n: number to calculate the square root
-* @i: iterate number
-* Return: the natural square root
+* @i: the iterate number
+* Return:  natural square root
 */
 int _sqrt(int n, int i)
 {
