@@ -8,4 +8,3 @@ void print_strings(const char *separator, cont unsigned int n, ...);
 void print_all(const char * const format, ...);
 
 #endif
-
