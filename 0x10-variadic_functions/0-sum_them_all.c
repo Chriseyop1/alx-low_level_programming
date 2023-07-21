@@ -2,13 +2,13 @@
 #include <stdarg.h>
 
 /**
-* sum_them_all - Returns the sum of its parameters.
-* @n: The number of parameters passed to the function
-* @...: A variable number of parameters to calculate the sum of.
+* sum_them_all - Returns sum of the parameters.
+* @n: The number of the parameters that passed to the function
+* @...: A variable number of the parameters to calculate the sum.
 * Return: If n -- 0 - 0.
-* Otherwise - the sum of all parameters.
+* Otherwise - sum of all the parameters.
 */
-int sum_them_all(cont unsigned int n, ...)
+int sum_them_all(const unsigned int n, ...)
 {
 va_list ap;
 unsigned int i, sum = 0;
